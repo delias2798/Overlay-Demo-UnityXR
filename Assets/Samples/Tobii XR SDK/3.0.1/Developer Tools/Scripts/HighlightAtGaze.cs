@@ -22,7 +22,8 @@ namespace Tobii.XR.Examples.DevTools
             //If this object received focus, fade the object's color to highlight color
             if (hasFocus)
             {
-                _targetColor = highlightColor;
+                _targetColor = _originalColor;
+                // _targetColor = highlightColor;
             }
             //If this object lost focus, fade the object's color to it's original color
             else
@@ -38,17 +39,17 @@ namespace Tobii.XR.Examples.DevTools
             _targetColor = _originalColor;
         }
 
-        private void Update()
-        {
-            //This lerp will fade the color of the object
-            if (_renderer.material.HasProperty(_baseColor)) // new rendering pipeline (lightweight, hd, universal...)
-            {
-                _renderer.material.SetColor(_baseColor, Color.Lerp(_renderer.material.GetColor(_baseColor), _targetColor, Time.deltaTime * (1 / animationTime)));
-            }
-            else // old standard rendering pipline
-            {
-                _renderer.material.color = Color.Lerp(_renderer.material.color, _targetColor, Time.deltaTime * (1 / animationTime));
-            }
-        }
+        // private void Update()
+        // {
+        //     //This lerp will fade the color of the object
+        //     if (_renderer.material.HasProperty(_baseColor)) // new rendering pipeline (lightweight, hd, universal...)
+        //     {
+        //         _renderer.material.SetColor(_baseColor, Color.Lerp(_renderer.material.GetColor(_baseColor), _targetColor, Time.deltaTime * (1 / animationTime)));
+        //     }
+        //     else // old standard rendering pipline
+        //     {
+        //         _renderer.material.color = Color.Lerp(_renderer.material.color, _targetColor, Time.deltaTime * (1 / animationTime));
+        //     }
+        // }
     }
 }

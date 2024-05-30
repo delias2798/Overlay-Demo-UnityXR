@@ -8,6 +8,7 @@ using System.Collections.Generic;
 
 public class TriviaGame : MonoBehaviour
 {
+    public EyeTrackingMetrics metrics;
     public GameObject Canvas;
     public GameObject PanelStart;
     public GameObject PanelEnd;
@@ -196,6 +197,8 @@ public class TriviaGame : MonoBehaviour
         string updatedJson = JsonUtility.ToJson(results);
         File.WriteAllText(filePath, updatedJson);
         Debug.Log("Results saved to: " + filePath);
+
+        metrics.SaveMetricsData();
     }
 
     [Serializable]
