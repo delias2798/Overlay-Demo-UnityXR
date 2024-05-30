@@ -1,0 +1,62 @@
+{
+    "startText": "Bienvenido",
+    "startButtonLabel": "Iniciar",
+    "endText": "Espero hayas aprendido sobre Manatíes",
+    "endButtonLabel": "Finalizar",
+    "previousButtonLabel": "<",
+    "nextButtonLabel": ">",
+    "dataList": [
+        {
+            "tittle": "Inicio",
+            "info": "Se iniciará la experiencia con una serie de paneles de información, lea cada uno y al finalzar realizará una trivia. Oprima '>' para continuar."
+        },
+        {
+            "tittle": "Información General:",
+            "info": "Los manatíes son los únicos mamíferos marinos exclusivamente herbívoros y se alimentan principalmente de una variedad de plantas acuáticas. \n\nAlgunas de las plantas específicas que consumen incluyen Paspalum repens (gamalote), Urochloa mutica (pará), Eichhornia crassipes (choreja), Ludwigia helminthorrhiza (lirio rosa) y Hydrocotyle ranunculoides (comalillo)."
+        },
+        {
+            "tittle": "Información General:",
+            "info": "El manatí antillano (Trichechus manatus manatus) está catalogado como \"en peligro de extinción\" por la Unión Internacional para la Conservación de la Naturaleza (UICN). \n\nSon mamíferos subungulados, herbívoros, adaptados a la vida acuática con un cuerpo fusiforme y extremidades convertidas en aletas para la propulsión."
+        },
+        {
+            "tittle": "Comportamiento y Ecología",
+            "info": "Los manatíes pasan casi la mitad de su tiempo descansando, un comportamiento típico para la especie. \n\nLos manatíes individuales muestran diferencias considerable en sus patrones de comportamiento; algunos son más activos y prefieren explorar."
+        },
+        {
+            "tittle": "Hábitat y Distribución:",
+            "info": "Los manatíes prefieren áreas con abundante vegetación acuática y cobertura forestal. \n\nEn Costa Rica, el mejor hábitat y la mayor población de manatíes se encuentran en el Parque Nacional Tortuguero."
+        },
+        {
+            "tittle": "Hábitat y Distribución:",
+            "info": "Estudios recientes han ampliado la distribución conocida de los manatíes antillanos a lo largo de la costa caribeña de Costa Rica."
+        },
+        {
+            "tittle": "Amenazas y Esfuerzos de Conservación",
+            "info": "La contaminación, las colisiones con embarcaciones, la caza intencional, la pérdida de hábitat y los enredos en artes de pesca representan amenazas significativas para la conservación de los manatíes.\n\nLos esfuerzos para proteger a los manatíes incluyen medidas legislativas, la designación de santuarios y la sensibilización pública."
+        },
+        {
+            "tittle": "Amenazas y Esfuerzos de Conservación",
+            "info": "Las estrategias de conservación implican la participación comunitaria, colaboraciones en investigación y programas educativos.\n\nEl manatí fue declarado Símbolo Nacional de la fauna marina de Costa Rica por la Asamblea Legislativa en el año 2011 para promover la conciencia y la sensibilización sobre la importancia de la conservación de esta especie y su hábitat. "
+        },
+        {
+            "tittle": "El SINAC",
+            "info": "En Costa Rica Sistema Nacional de Áreas de Conservación (SINAC) es responsable de administrar y proteger las áreas protegidas del país, así como de promover la conservación de la biodiversidad y los recursos naturales. El SINAC opera bajo el Ministerio de Ambiente y Energía (MINAE)."
+        },
+        {
+            "tittle": "El SINAC",
+            "info": "El SINAC trabaja en colaboración con comunidades locales, organizaciones no gubernamentales y otros actores para desarrollar estrategias de conservación y manejo sostenible de los recursos naturales. \n\nEs posible registrarse como voluntario o hacer donaciones monetarias a los programas de voluntariado."
+        },
+        {
+            "tittle": "Direcciones Futuras",
+            "info": "Establecimiento de redes entre investigadores y comunidades locales para compartir conocimientos y promover esfuerzos de conservación.\n\nColaboración con instituciones educativas y organizaciones comunitarias para desarrollar programas de conservación."
+        },
+        {
+            "tittle": "Direcciones Futuras",
+            "info": "Involucrar a asociaciones de desarrollo local para asegurar que las iniciativas de conservación beneficien directamente a las comunidades."
+        },
+        {
+            "tittle": "Conclusión",
+            "info": "A pesar de ser uno de los mamíferos más amenazados en Costa Rica, los manatíes enfrentan numerosas amenazas, pero los esfuerzos de conservación concertados ofrecen esperanza para su supervivencia."
+        }
+    ]
+}

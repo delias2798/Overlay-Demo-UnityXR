@@ -1,0 +1,29 @@
+{
+    "tittle": "Iniciaremos una trivia con 3 respuestas para cada pregunta, al finalizar se mostrará la cantidad de aciertos",
+    "startButtonName": "Iniciar",
+    "endTittle": "Espero hayas disfrutado la experiencia",
+    "endButtonName": "Finalizar",
+    "questionList": [
+        {
+            "question": "¿Cuál es el resultado de la suma 2 + 2 ? ",
+            "option1": "2",
+            "option2": "4 ",
+            "option3": "0",
+            "correct": 1
+        },
+        {
+            "question": "¿En que pais se encuentra? ",
+            "option1": "Cartago",
+            "option2": "México",
+            "option3": "Costa Rica",
+            "correct": 2
+        },
+        {
+            "question": "¿Con qué reaccion se asocia estar feliz? ",
+            "option1": "Sonreir",
+            "option2": "Seriedad",
+            "option3": "Fruncido",
+            "correct": 0
+        }
+    ]
+}

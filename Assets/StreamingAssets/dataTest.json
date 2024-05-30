@@ -1,0 +1,26 @@
+{
+    "startText": "Bienvenido",
+    "startButtonLabel": "Iniciar",
+    "endText": "Espero hayas disfrutado la experiencia",
+    "endButtonLabel": "Finalizar",
+    "previousButtonLabel": "<",
+    "nextButtonLabel": ">",
+    "dataList": [
+        {
+            "tittle": "Inicio",
+            "info": "Se iniciará la experiencia con una serie de paneles de información, lea cada uno y al finalzar realizará una trivia. Oprima '>' para continuar."
+        },
+        {
+            "tittle": "Información Inicial:",
+            "info": "Esta aplicacion de realidad virtual fue creada en Costa Rica."
+        },
+        {
+            "tittle": "Información Inicial:",
+            "info": "Este es segundo panel de informacion, se colocara mas informacion en otras versiones."
+        },
+        {
+            "tittle": "Informacion final",
+            "info": "A continuación se encontrará con las intrucciones para realizar la trivia."
+        }
+    ]
+}

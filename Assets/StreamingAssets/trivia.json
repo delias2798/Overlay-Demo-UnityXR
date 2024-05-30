@@ -1,0 +1,78 @@
+{
+    "tittle": "Iniciaremos una trivia con 3 respuestas para cada pregunta, al finalizar se mostrará la cantidad de aciertos",
+    "startButtonName": "Iniciar",
+    "endTittle": "Esperamos que hayas aprendido sobre los Manatíes",
+    "endButtonName": "Finalizar",
+    "questionList": [
+        {
+            "question": "¿Qué tipo de mamíferos marinos son los manatíes? ",
+            "option1": "Carnívoros ",
+            "option2": "Herbívoros ",
+            "option3": "Omnívoros",
+            "correct": 1
+        },
+        {
+            "question": "¿Cuál es el estado de conservación del manatí antillano según la UICN? ",
+            "option1": "Preocupación menor ",
+            "option2": "En peligro de extinción ",
+            "option3": "Extinto",
+            "correct": 1
+        },
+        {
+            "question": "¿Cuál es el comportamiento más común de los manatíes durante el día? ",
+            "option1": "Nadar largas distancias ",
+            "option2": "Descansar ",
+            "option3": "Cazar peces ",
+            "correct": 1
+        },
+        {
+            "question": "¿Dónde se encuentra el hábitat principal y la mayor población de manatíes en Costa Rica? ",
+            "option1": "Parque Nacional Corcovado",
+            "option2": "Parque Nacional Manuel Antonio",
+            "option3": "Parque Nacional Tortuguero",
+            "correct": 2
+        },
+        {
+            "question": "¿Cuál NO es una de las principales amenazas para la conservación de los manatíes en Costa Rica? ",
+            "option1": "Sobrepesca ",
+            "option2": "Contaminación por pesticidas ",
+            "option3": "Cambio climático",
+            "correct": 2
+        },
+        {
+            "question": "¿Qué especie de manatí se encuentra en las aguas de Costa Rica? ",
+            "option1": "Manatí Amazónico ",
+            "option2": "Manatí Africano ",
+            "option3": "Manatí del Caribe ",
+            "correct": 2
+        },
+        {
+            "question": "¿Cuál de las siguientes plantas es una de las principales fuentes de alimento para los manatíes? ",
+            "option1": "Algas marinas ",
+            "option2": "Lirio rosa",
+            "option3": "Corales",
+            "correct": 1
+        },
+        {
+            "question": "¿En qué año fue declarado el manatí como Símbolo Nacional de la fauna marina de Costa Rica? ",
+            "option1": "2005",
+            "option2": "2008",
+            "option3": "2011",
+            "correct": 2
+        },
+        {
+            "question": "¿Cuál es el organismo responsable de administrar y proteger las áreas protegidas en Costa Rica? ",
+            "option1": "Sistema Nacional de Áreas de Conservación (SINAC) ",
+            "option2": "Ministerio de Turismo ",
+            "option3": "Instituto Costarricense de Turismo (ICT) ",
+            "correct": 0
+        },
+        {
+            "question": "¿Cuál fue el propósito principal de declarar al manatí como Símbolo Nacional de Costa Rica? ",
+            "option1": "Fomentar el turismo de avistamiento de manatíes ",
+            "option2": "Sensibilizar sobre la conservación del manatí y su hábitat ",
+            "option3": "Promover la caza sostenible de manatíes para el sustento de las comunidades locales ",
+            "correct": 1
+        }
+    ]
+}
