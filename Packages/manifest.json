@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "com.gwiazdorrr.betterstreamingassets": "https://github.com/gwiazdorrr/BetterStreamingAssets.git",
-    "com.tobii.xr.sdk": "file:C:/Users/DELIA/Documents/TEC/I Semestre 2024/Proyecto de Diseno/TobiiXRSDK_3.0.1.179/TobiiXRSDK_3.0.1.179",
+    "com.tobii.ocumen": "file:C:/Users/DELIA/Documents/TEC/TFG/2023.1.0 - Tobii Ocumen/Unity/Packages/Ocumen",
+    "com.tobii.xr.sdk": "file:C:/Users/DELIA/Documents/TEC/TFG/2023.1.0 - Tobii Ocumen/Unity/Packages/XR SDK",
     "com.unity.collab-proxy": "2.0.0",
     "com.unity.ide.rider": "3.0.18",
     "com.unity.ide.visualstudio": "2.0.17",
