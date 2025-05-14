@@ -1,0 +1,17 @@
+Modelo 3D: "Shopping metal basket"
+Autor: shamraypro
+Fuente: https://sketchfab.com/3d-models/shopping-metal-basket-99368ba88f514a99b802cca859c54eed
+Licencia: Creative Commons Attribution 4.0 International (CC BY 4.0)
+Enlace a la licencia: https://creativecommons.org/licenses/by/4.0/
+
+Descripción:
+Este modelo fue descargado de Sketchfab y ha sido utilizado en este proyecto bajo los términos de la licencia CC BY 4.0. Se reconoce la autoría original de shamraypro. En este proyecto, el modelo fue adaptado mediante ajustes de escala y optimización de materiales para su integración en el entorno virtual desarrollado con Unity.
+
+Fecha de publicación original: 11 de febrero de 2025
+
+Modelos 3D originales desarrollados por:
+
+- LUIS ENRIQUE MORAGA CENTENO, estudiante de Ingeniería en Diseño Industrial, Instituto Tecnológico de Costa Rica.
+- DIANA OBANDO CHACON, estudiante de Ingeniería en Diseño Industrial, Instituto Tecnológico de Costa Rica.
+
+Los modelos fueron diseñados exclusivamente para este proyecto como parte de un proceso de asistencia técnica y colaboración interdepartamental.
