@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_TestAB_cafe/LobbyScene.unity
+    guid: 835b7cbb7804dc444a027c97859c46f3
+  - enabled: 1
     path: Assets/_TestAB_cafe/TestAB.unity
     guid: fefe7fdd2c31ad3428bd724a78abb72f
   - enabled: 0
