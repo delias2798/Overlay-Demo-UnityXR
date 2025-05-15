@@ -6,7 +6,7 @@ using UnityEngine;
 public class ProductHighlightTrigger : MonoBehaviour
 {
     [Tooltip("Nombre del layer que activará el cambio de color.")]
-     [SerializeField] string targetTagName = "Product";
+    [SerializeField] string targetTagName = "Product";
 
     int targetLayer;
 
