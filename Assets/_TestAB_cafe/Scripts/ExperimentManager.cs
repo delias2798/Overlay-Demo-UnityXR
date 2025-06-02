@@ -5,7 +5,7 @@ using UnityEngine;
 public class ExperimentManager : MonoBehaviour
 {
     [Tooltip("Dinero inicial del experimento.")]
-    [SerializeField] private float dineroInicial = 0f;
+    [SerializeField] private float dineroInicial = 15000f;
 
     // Dinero acumulado durante la sesión
     private float dineroAcumulado;
@@ -49,7 +49,6 @@ public class ExperimentManager : MonoBehaviour
     public void RemoveDinero(float monto)
     {
         dineroAcumulado -= monto;
-        if (dineroAcumulado < 0f) dineroAcumulado = 0f;
         Debug.Log($"[ExperimentManager] ₡{monto:N0} removidos. Total: ₡{dineroAcumulado:N0}");
     }
 

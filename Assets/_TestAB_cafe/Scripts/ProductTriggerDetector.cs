@@ -14,6 +14,9 @@ public class ProductTriggerDetector : MonoBehaviour
     [Tooltip("Referencia al ExperimentManager de la escena.")]
     [SerializeField] private ExperimentManager experimentManager;
 
+    // Color original del Text para restaurarlo
+    private Color defaultColor;
+
     // Conjunto de productos actualmente dentro del trigger
     private readonly HashSet<Producto> productosEnTrigger = new HashSet<Producto>();
 
@@ -23,9 +26,12 @@ public class ProductTriggerDetector : MonoBehaviour
         var col = GetComponent<Collider>();
         col.isTrigger = true;
 
-        // Inicializar el texto con el valor inicial del ExperimentManager
+        // Guardar color original y mostrar valor inicial
         if (priceText != null && experimentManager != null)
-            priceText.text = $"₡{experimentManager.DineroAcumulado:N0}";
+        {
+            defaultColor = priceText.color;
+            priceText.text  = $"₡{experimentManager.DineroAcumulado:N0}";
+        }
     }
 
     void OnTriggerEnter(Collider other)
@@ -37,16 +43,14 @@ public class ProductTriggerDetector : MonoBehaviour
         if (producto == null)
             return;
 
-        // Transición vacío → ocupado
         if (productosEnTrigger.Count == 0)
             experimentManager.OnTriggerOccupied();
 
-        // Agregar al conjunto y sumar dinero si es nuevo
         if (productosEnTrigger.Add(producto))
         {
-            experimentManager.AddDinero(producto.Precio);
+            experimentManager.RemoveDinero(producto.Precio);
             ActualizarTexto();
-            Debug.Log($"[Enter] {producto.NombreProducto}: ₡{producto.Precio:N0}, Total: ₡{experimentManager.DineroAcumulado:N0}");
+            Debug.Log($"[Enter] {producto.NombreProducto}: ₡{producto.Precio:N0} gastados, Restante: ₡{experimentManager.DineroAcumulado:N0}");
         }
     }
 
@@ -59,25 +63,27 @@ public class ProductTriggerDetector : MonoBehaviour
         if (producto == null)
             return;
 
-        // Eliminar del conjunto y restar dinero si existía
         if (productosEnTrigger.Remove(producto))
         {
-            experimentManager.RemoveDinero(producto.Precio);
+            experimentManager.AddDinero(producto.Precio);
             ActualizarTexto();
-            Debug.Log($"[Exit] {producto.NombreProducto} removido, Total: ₡{experimentManager.DineroAcumulado:N0}");
+            Debug.Log($"[Exit] {producto.NombreProducto} reembolsado, Total: ₡{experimentManager.DineroAcumulado:N0}");
 
-            // Transición ocupado → vacío
             if (productosEnTrigger.Count == 0)
                 experimentManager.OnTriggerEmpty();
         }
     }
 
     /// <summary>
-    /// Refresca el componente Text con el valor actual del ExperimentManager.
+    /// Refresca el componente Text con el valor actual del ExperimentManager
+    /// y ajusta el color si el monto es negativo.
     /// </summary>
     private void ActualizarTexto()
     {
-        if (priceText != null)
-            priceText.text = $"₡{experimentManager.DineroAcumulado:N0}";
+        if (priceText == null) return;
+
+        float monto = experimentManager.DineroAcumulado;
+        priceText.text  = $"₡{monto:N0}";
+        priceText.color = (monto < 0f) ? Color.red : defaultColor;
     }
 }
