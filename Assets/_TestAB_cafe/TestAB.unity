@@ -10996,6 +10996,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 915278353}
+  - component: {fileID: 915278354}
   m_Layer: 0
   m_Name: Grabbables
   m_TagString: Untagged
@@ -11026,6 +11027,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &915278354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915278352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8979912c89f0a942a62bfa34b67fd7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectsToExport:
+  - {fileID: 1864978828}
+  - {fileID: 777999047}
+  - {fileID: 532999926}
+  - {fileID: 1154942247}
+  - {fileID: 1101804007}
+  - {fileID: 322380538}
+  - {fileID: 6697945002684630206}
+  - {fileID: 873710230}
+  - {fileID: 1954286999}
+  - {fileID: 4072459484339458408}
+  - {fileID: 4528451307143232131}
+  - {fileID: 8926440080803829545}
+  - {fileID: 105215385}
+  - {fileID: 818834477}
+  - {fileID: 8445916042215836948}
+  - {fileID: 3345887938630516691}
+  - {fileID: 7267683035336890225}
+  - {fileID: 320616139}
+  - {fileID: 1079020390}
+  - {fileID: 1931264068}
+  - {fileID: 476882580}
+  - {fileID: 319052845}
+  - {fileID: 535933176}
+  - {fileID: 5639060621149872452}
+  - {fileID: 1611666256}
+  - {fileID: 1894175683}
+  - {fileID: 841489191}
+  - {fileID: 173099993}
+  - {fileID: 1011148255}
+  - {fileID: 1186683296}
 --- !u!1 &916314343
 GameObject:
   m_ObjectHideFlags: 0
